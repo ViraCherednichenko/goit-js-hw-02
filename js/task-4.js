@@ -9,7 +9,7 @@ switch (country) {
                 case "Jamaica":
                     return "Shipping to Jamaica will cost 120 credits";
                     default:
-                         "Sorry, there is no delivery to your country";
+                        return "Sorry, there is no delivery to your country";
 }
 }
 
